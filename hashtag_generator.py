@@ -25,7 +25,10 @@ def generate_hashtag(s):
     tag = "#"
     for i in res:
         tag+=i
-    return tag
+    if len(tag) > 140:
+        return False
+    else:
+        return tag
 
 print(generate_hashtag("    Hello   there thanks for trying my Kata ")) #HelloThereThanksForTryingMyKata
 print(generate_hashtag("CoDeWaRs is niCe")) #CodewarsIsNice
