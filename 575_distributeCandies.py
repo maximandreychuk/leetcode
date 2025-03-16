@@ -1,12 +1,7 @@
 from collections import Counter
 
 def distributeCandies(candyType):
-    d = Counter(candyType)
-    res = 0
-    for _ in d.keys():
-        if res >= len(candyType)//2:
-            return res
-        res+=1
+    findLHS
     return res
 
 

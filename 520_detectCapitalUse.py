@@ -14,8 +14,8 @@ def detectCapitalUse(word):
     if word[0] == word[0].lower() and word[1] != word[1].lower():
         return False
     return True
-
-print(detectCapitalUse("USA"))
-print(detectCapitalUse("FlaG"))
-print(detectCapitalUse("Leetcode"))
-print(detectCapitalUse("FFFFFFFFFFFFFFFFFFFFf"))
+print(len("gaqrzczpmtsxlwxdacitrcgklziiya"))
+# print(detectCapitalUse("USA"))
+# print(detectCapitalUse("FlaG"))
+# print(detectCapitalUse("Leetcode"))
+# print(detectCapitalUse("FFFFFFFFFFFFFFFFFFFFf"))

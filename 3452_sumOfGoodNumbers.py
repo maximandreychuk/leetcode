@@ -1,0 +1,1 @@
+def sumOfGoodNumbers(nums, k):
