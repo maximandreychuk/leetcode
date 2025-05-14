@@ -18,6 +18,8 @@ def isValid(st):
         return True
 
 
-print(isValid("(]"))
-print(isValid("()[]{}"))
-print(isValid("([])"))
+# print(isValid("(]"))
+# print(isValid("()[]{}"))
+# print(isValid("([])"))
+obj = {True: 1, 1: 2, 1.0: 3, "1": 4}
+print(obj)
